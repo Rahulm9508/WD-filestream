@@ -12,7 +12,7 @@ const SIA_NUMBER = 1234; // Insert a random integer number and keep it safe.
 const WHITE_METHODS = ["GET", "POST", "HEAD"];
 const HEADERS_FILE = {"Access-Control-Allow-Origin": "*", "Access-Control-Allow-Methods": "GET, HEAD, POST, OPTIONS", "Access-Control-Allow-Headers": "Content-Type"};
 const HEADERS_ERRR = {'Access-Control-Allow-Origin': '*', 'content-type': 'application/json'};
-const ERROR_404 = {"ok":false,"error_code":404,"description":"Bad Request: missing /?file= parameter", "credit": "https://t.me/Opleech_WD"};
+const ERROR_404 = {"ok":false,"error_code":404,"description":"Bad Request: missing /?file= parameter", "credit": "🍃 MR NOOB OP"};
 const ERROR_405 = {"ok":false,"error_code":405,"description":"Bad Request: method not allowed"};
 const ERROR_406 = {"ok":false,"error_code":406,"description":"Bad Request: file type invalid"};
 const ERROR_407 = {"ok":false,"error_code":407,"description":"Bad Request: file hash invalid by atob"};
@@ -284,11 +284,11 @@ async function onMessage(event, message) {
     const inlineKeyboard = {
         inline_keyboard: [
             [
-                { text: "Telegram Link", url: final_tele },
-                { text: "Download Link", url: final_link }
+                { text: "🍃Telegram Link", url: final_tele },
+                { text: "🍭Download Link", url: final_link }
             ],
             [
-                { text: "Stream Link", url: final_stre }
+                { text: "🦋Stream Link", url: final_stre }
             ]
         ]
     };
